@@ -1,13 +1,13 @@
 # GCD
 A GCD (Greatest Common Divisor) machine is a hardware implementation that calculates the greatest common divisor of two numbers. It can be built using a combination of data path and control path components. Here's a high-level description of how you can design a GCD machine using data path and control path:
 
-Data Path:
+#Data Path:
 The data path is responsible for performing arithmetic and logical operations on data. In this case, the data path will consist of registers, arithmetic logic units (ALUs), and multiplexers.
 
-Input Registers: Two input registers are used to store the two numbers for which we want to find the greatest common divisor.
+#Input Registers: Two input registers are used to store the two numbers for which we want to find the greatest common divisor.
 Comparator: A comparator is used to compare the two numbers stored in the input registers.
-ALU: An ALU is used to perform arithmetic operations, such as subtraction and modulo, on the numbers.
-Output Register: An output register is used to store the computed greatest common divisor.
+#ALU: An ALU is used to perform arithmetic operations, such as subtraction and modulo, on the numbers.
+#Output Register: An output register is used to store the computed greatest common divisor.
 Control Path:
 The control path is responsible for controlling the operations performed in the data path. It consists of control signals and a control unit.
 
